@@ -1,4 +1,23 @@
 git init
+git add
 git status
 git diff
-git commit -
+git commit -m "1st commit"
+git config --global user.name "XYZ"
+git config --global user.email "vk@gmail.com"
+$ git push origin main
+$ git pull origin main
+
+-------------------------------------------------------------------
+
+
+HP@LAPTOP-VCCQVI2B MINGW64 /d/Suyog (main)
+$ git branch firstbranch
+
+HP@LAPTOP-VCCQVI2B MINGW64 /d/Suyog (main)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+M       commands.txt
+
+HP@LAPTOP-VCCQVI2B MINGW64 /d/Suyog (firstbranch)
+$
